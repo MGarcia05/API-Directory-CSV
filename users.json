@@ -1,0 +1,103 @@
+{
+  "results": [
+    {
+      "name": "Bill Stephens",
+      "location": "Fairview St 6406, Minnesota 31911",
+      "email": "bill.stephens@example.com",
+      "dob": "Birthday: 7/17/1982",
+      "phone": "(435) 831-6402",
+      "picture": "https://randomuser.me/api/portraits/men/55.jpg",
+      "id": "1"
+    },
+    {
+      "name": "Joe Perkins",
+      "location": "Mcgowen St 4894, New York 97373",
+      "email": "joe.perkins@example.com",
+      "dob": "Birthday: 5/19/1946",
+      "phone": "(220) 464-0950",
+      "picture": "https://randomuser.me/api/portraits/men/52.jpg",
+      "id": "2"
+    },
+    {
+      "name": "Benjamin Warren",
+      "location": "Forest Ln 8882, Hawaii 78672",
+      "email": "benjamin.warren@example.com",
+      "dob": "Birthday: 2/30/1987",
+      "phone": "(933) 342-2762",
+      "picture": "https://randomuser.me/api/portraits/men/62.jpg",
+      "id": "3"
+    },
+    {
+      "name": "Miriam Nelson",
+      "location": "Fairview St 925, New Mexico 69450",
+      "email": "miriam.nelson@example.com",
+      "dob": "Birthday: 6/9/1956",
+      "phone": "(661) 910-7723",
+      "picture": "https://randomuser.me/api/portraits/women/73.jpg",
+      "id": "4"
+    },
+    {
+      "name": "Neil Stevens",
+      "location": "Mockingbird Ln 1893, Alabama 41765",
+      "email": "neil.stevens@example.com",
+      "dob": "Birthday: 3/12/1963",
+      "phone": "(341) 424-4134",
+      "picture": "https://randomuser.me/api/portraits/men/53.jpg",
+      "id": "5"
+    },
+    {
+      "name": "Danielle Hayes",
+      "location": "Shady Ln Dr 9918, Massachusetts 53747",
+      "email": "danielle.hayes@example.com",
+      "dob": "Birthday: 3/11/1982",
+      "phone": "(841) 254-6724",
+      "picture": "https://randomuser.me/api/portraits/women/88.jpg",
+      "id": "6"
+    },
+    {
+      "name": "Megan Rogers",
+      "location": "Elgin St 7418, Idaho 56105",
+      "email": "megan.rogers@example.com",
+      "dob": "Birthday: 9/4/1962",
+      "phone": "(371) 941-2320",
+      "picture": "https://randomuser.me/api/portraits/women/54.jpg",
+      "id": "7"
+    },
+    {
+      "name": "Jack Soto",
+      "location": "Lakeview St 6289, Florida 13625",
+      "email": "jack.soto@example.com",
+      "dob": "Birthday: 9/12/1990",
+      "phone": "(290) 696-7684",
+      "picture": "https://randomuser.me/api/portraits/men/81.jpg",
+      "id": "8"
+    },
+    {
+      "name": "Sheila Murray",
+      "location": "Homestead Rd 4228, Tennessee 40006",
+      "email": "sheila.murray@example.com",
+      "dob": "Birthday: 5/12/1956",
+      "phone": "(696) 393-2557",
+      "picture": "https://randomuser.me/api/portraits/women/42.jpg",
+      "id": "9"
+    },
+    {
+      "name": "Kent Cunningham",
+      "location": "Ash Dr 4096, Florida 85772",
+      "email": "kent.cunningham@example.com",
+      "dob": "Birthday: 0/27/1945",
+      "phone": "(847) 750-4660",
+      "picture": "https://randomuser.me/api/portraits/men/40.jpg",
+      "id": "10"
+    },
+    {
+      "name": "Peter Gibson",
+      "location": "Samaritan Dr 5749, Illinois 73347",
+      "email": "peter.gibson@example.com",
+      "dob": "Birthday: 5/26/1961",
+      "phone": "(550) 701-7863",
+      "picture": "https://randomuser.me/api/portraits/men/15.jpg",
+      "id": "11"
+    }
+  ]
+}

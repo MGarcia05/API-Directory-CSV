@@ -1,0 +1,204 @@
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #2b4053;
+    position: relative;
+    display: grid;
+    margin: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "header"
+    "main";
+}
+
+/* No longer displaying table when uploading data */
+table {
+    /* color: #FFF; */
+    display: none;
+}
+
+hr {
+    color: #7dbec2;
+}
+
+
+/* ============================================= */
+/*              Grid System                      */
+/* ============================================= */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px 25px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.new-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px 25px;
+    width: 100%;
+    grid-area: main;
+}
+
+main {
+    grid-area: main;
+}
+
+/* ============================================= */
+/*              Header                           */
+/* ============================================= */
+
+.header {
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    color: #FFF;
+}
+
+#fileUpload, #upload {
+    background-color: #FFF;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#search {
+    font-size: 25px;
+    height: 30px;
+}
+
+/* ============================================= */
+/*              Card & Extra Styles              */
+/* ============================================= */
+
+.card {
+  background: #FFF;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  /* border: 1px solid lightgrey; */
+  color: #2b4053;
+}
+
+.card:hover {
+    cursor: pointer;
+    background: #ffc954;
+}
+
+.avatar {
+    border-radius: 50%;
+    padding-left: 0%;
+}
+
+.text-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #2b4053;
+}
+
+.name {
+    font-size: 15px;
+}
+
+.email,
+.address {
+    color: #2b4053;
+    margin: 0px 10px 10px 0px;
+    font-size: 11px;
+}
+
+.cardContainer-column {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(100, 100, 100, 0.4);
+}
+
+/* ============================================= */
+/*              Modal Styles                     */
+/* ============================================= */
+
+.modal {
+    width: 375px;
+    margin: 15% auto auto;
+    position: relative;
+    text-align: center;
+    background: #FFF;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 30px 20px;
+    font-size: 12px;
+    color: #646464;
+}
+
+.modal-close {
+    position: absolute;
+    right: 30px;
+    top: -5px;
+    cursor: pointer;
+}
+
+.modal-next {
+    position: absolute;
+    right: 10px;
+    top: 200px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.modal-back {
+    position: absolute;
+    left: 10px;
+    top: 200px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+/* ============================================= */
+/*              Search Styles                    */
+/* ============================================= */
+
+.search {
+    grid-area: search;
+    align-self: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+#searchbar {
+    height: 40px;
+    width: 500px;
+}
